@@ -1,7 +1,7 @@
 title: Corona Admin Page
 author: LeeYeonJe
 email: LeeYeonJe@github.com
-copyright: © 2019 LeeYeonJe
+copyright: © 2021 LeeYeonJe
 description: > # this means to ignore newlines until "show_excerpts:"
   코로나 어드민 페이지
 
@@ -11,7 +11,7 @@ lin:
   date_format: "%b %-d, %Y"
 
   # path to the author avatar image
-  avatar_path: assets/images/avatar.jpg
+  avatar_path: assets/images/avatar.png
 
   # generate social links
   social_links:
@@ -36,3 +36,4 @@ theme: lin
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-include-cache
